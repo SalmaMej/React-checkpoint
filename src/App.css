@@ -6,10 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+.btn-space{
+  margin: 20px 0 0 60px;
+}
+.forms:focus{
+  background-color: rgba(167, 0, 50, 0.178);
+}
 
-@media (prefers-reduced-motion: no-preference) {
+.form-div{
+  margin-top: 30px;
+  margin-left: 700px;
+}
+@media screen and (max-width: 1280px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+  .form-div{
+    margin-top: 30px;
+    margin-left: 400px;
   }
 }
 
